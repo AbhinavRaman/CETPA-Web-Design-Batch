@@ -1,0 +1,62 @@
+h1{
+    color: red;
+    font-size: 35px;
+}
+
+h2{
+    color: green;
+    font-style: italic;
+    font-size: 28px;
+}
+
+ol li{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+#linethrough{
+    text-decoration: line-through;
+}
+.li3{
+    font-weight: bold;
+    background-color: yellow;
+}
+#li4{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#secondheading{
+    font-size: 38px;
+    margin-bottom: 70px;
+}
+
+ul{
+    letter-spacing: 5px;
+    color: brown;
+}
+
+#info{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+p{
+    color: brown;
+    font-size: 21px;
+}
+
+#smallLine{
+    font-size: x-small;
+}
+#mediumLine{
+    font-size: medium;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    background-color: yellow;
+    color: brown;
+    font-size: large;
+}
