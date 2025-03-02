@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+body{
+    border: 6px solid greenyellow;
+    height: 225vh;
+    background-image: url(./pexels-pixabay-262978.jpg);
+    background-repeat: no-repeat;
+    background-size: 340vh;
+}
+
+.nav{
+    width: 100%;
+    height: 160px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.cards{
+    height: 110px;
+    width: 20%;
+    color: white;
+    border: 5px solid red;
+    background-color: black;
+    border-radius: 10px;
+    align-content: center;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+#card2{
+    height: 60px;
+    width: 40%;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    height: 590px;
+}
+
+.circle{
+    /* display: flex; */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-top: 70px;
+    margin-left: 80px;
+    border: 5px solid gray;
+}
+#one{
+    margin-top: 100px;
+    height: 20px;
+    text-align: center;
+}
+#two{
+    margin-top: 50px;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+hr{
+    height: 0.2px;
+}
+form{
+    margin-top: 0px;
+    height: 545px;
+    width: 400px;
+    margin-left: 20px;
+    border: 5px dotted red;
+    font-size: large;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    height: 35px;
+}
+input{
+    height: 15px;
+    width: 200px;
+}
+#submit{
+    width: 100px;
+    height: 20px;
+}
+
+
+.menu{
+    border: 5px solid red;
+    margin-left: 450px;
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding-left: 200px;
+}
+.listA{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(36, 36, 136);
+    height: 300px;
+}
+h2{
+    justify-content: center;
+    padding-left: 40px;
+}
+ul{
+    padding-left: 100px;
+    justify-content: center;
+}
+.list1{
+    border:3px solid rgb(4, 63, 4);
+    border-radius: 40px; 
+    background-color: aqua;
+    height: 260px;
+    width: 400px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+}
+.list2{
+    border:3px solid rgb(4, 63, 4);
+    border-radius: 40px; 
+    background-color: aqua;
+    height:260px;
+    width: 400px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+}
+
+.list3{
+    border:3px solid rgb(4, 63, 4);
+    border-radius: 40px; 
+    background-color: aqua;
+    height: 260px;
+    width: 400px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+}
+.listB{
+    color: rgb(36, 36, 136);
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.list4{
+    
+    border:3px solid rgb(4, 63, 4);
+    border-radius: 40px; 
+    background-color: aqua;
+    height: 260px;
+    width: 400px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+}
+.list5{
+    
+    border:3px solid rgb(4, 63, 4);
+    border-radius: 40px; 
+    background-color: aqua;
+    height: 260px;
+    width: 400px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+}
+.list6{
+    
+    border:3px solid rgb(4, 63, 4);
+    border-radius: 40px; 
+    background-color: aqua;
+    height: 260px;
+    width: 400px;
+    display: inline-block;
+    font-size: large;
+}
+
+li{
+    height: 30px;
+}
