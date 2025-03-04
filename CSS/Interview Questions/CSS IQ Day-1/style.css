@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.content1{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(130, 168, 201);
+}
+.content2{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(17, 197, 140);
+}
+.content3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 64, 64);
+}
+.content4{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(148, 27, 154);
+}
+.content5{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 13, 13);
+}
+.content6{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 224, 23);
+}
+
+
+.rel{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* bottom: 50px; */
+    left: 50px;
+    background-color: rgb(8, 241, 241);
+}
+.absolute{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+}
+   
+    .main{
+        
+        position: relative;
+        /* margin-top: 5px; */
+        /* margin: 100px; */
+    }
+    .card1{
+       
+        position: absolute;
+        background-color: #363b1a7f;
+        left: 80px;
+        top: 300px;
+        height: 100px;
+        width: 100px;
+        z-index: 1;
+    
+    }
+    .card2{
+        background-color: #308505;
+        left: 140px;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 250px;
+        z-index: 2;
+    }
+    .card3{
+        background-color: #bf0d0d;
+      position: absolute;
+        height: 100px;
+        width: 100px;
+        left: 200px;
+        z-index: 3;
+        top:200px ;
+    } 
+.last{
+    margin-top: 500px;
+}
+.padding{
+    padding: 90px;
+    background-color: #0e430e;
+    height: 100px;
+    width: 200px;
+}
+.margin{
+    background-color: #d5179c;
+    height: 100px;
+    margin: 80px;
+    width: 200px;
+}
+
+
+
