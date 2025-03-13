@@ -1,0 +1,128 @@
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+.section{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red, green, 60%, yellow);
+    margin: 4px;
+}
+
+.section2{
+    background-color: turquoise;
+    border: 1.5px solid red;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 22%;
+    margin-top: 15px;
+    font-weight: bold;
+    padding-left: 23%;
+}
+.section2 li{
+    width: fit-content;
+}
+
+.section3{
+    background-color: turquoise;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 2%;
+    margin-top: 15px;
+    display: grid;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+}
+.box{
+    border: 1.5px solid black;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 1px;
+}
+#box4{
+    margin-left: 30%;
+    width: 300px;
+}
+
+
+.section5{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-image: radial-gradient(blue, skyblue, green);
+    justify-content: space-around;
+    margin: 10px 2px;
+}
+.cards{
+    height: 100px;
+    width: 180px;
+    text-align: center;
+    background-color: yellow;
+    border: 1px solid red;
+    border-radius: 15px;
+    align-content: center;
+    margin: 20px;
+    color: brown;
+    text-decoration: underline;
+}
+
+
+.section6{
+    width: 90%;
+    border: 1px solid black;
+}
+.banner{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0px;
+}
+.infos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.info1{
+    background: lightgreen;
+    color: white;
+    text-align: center;
+    height: 80px;
+    margin: 2px;
+}
+.info2{
+    background: lightgreen;
+    color: white;
+    text-align: center;
+    height: 80px;
+    margin: 2px;
+}
+.info3{
+    background: lightgreen;
+    color: white;
+    text-align: center;
+    height: 80px;
+    margin: 2px;
+}
+.info4{
+    background-color: black;
+    color: white;
+}
+.info5{
+    background-color: goldenrod;
+}
