@@ -1,0 +1,134 @@
+body{
+    background-image: url(sebastian-silva-solar-x71MHPaMCv8-unsplash.jpg);
+    background-size: cover;
+}
+
+
+.nav{
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+    width: 60px;
+}
+.menu{
+    margin-right: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu a img{
+    height: 20px;
+    width: 20;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 8%;
+}
+
+.left{
+    margin-top: 10%;
+}
+.left span{
+    font-size: 100px;
+}
+.left p{
+    width: 60%;
+
+}
+button{
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+
+.right{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 5%;
+    width: 85%;
+}
+.cards{
+    height: 150px;
+    width: 135px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.cards:hover{
+    margin-top: 0px;
+    transition-duration: 1s;    
+}
+
+#card1{
+    background-image: url(./pexels-pixabay-270756.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 500;
+    align-content: center;
+}
+#card2{
+    background-image: url(./pexels-thedhanawada-17194677.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 500;
+    align-content: center;
+}
+#card3{
+    background-image: url(./matt-palmer-M7EnqaUt6Yg-unsplash.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 500;
+    align-content: center;
+}
+#card4{
+    background-image: url(./rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 500;
+    align-content: center;
+}
+
+@media (min-width: 0px) and (max-width: 800px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .left p{
+        width: 100%;
+    }
+    .right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right .cards{
+        width: 100%;
+    }
+    .navMenu{
+        visibility: hidden;
+    }
+}
