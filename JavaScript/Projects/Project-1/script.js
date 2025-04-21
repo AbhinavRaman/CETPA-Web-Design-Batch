@@ -16,7 +16,12 @@ function updateClock() {
   const now = new Date();
   const [hours, minutes, seconds] = [now.getHours(), now.getMinutes(), now.getSeconds()];
   const ampm = hours >= 12 ? 'PM' : 'AM';
-  const displayHour = hours % 12 || 12;
+  let displayHour;
+  if (hours % 12 === 0) {
+    displayHour = 12;
+  } else {
+    displayHour = hours % 12;
+  }
 
   const fullTime = `${pad(displayHour)}:${pad(minutes)}:${pad(seconds)} ${ampm}`;
   const shortTime = `${pad(displayHour)}:${pad(minutes)} ${ampm}`;
